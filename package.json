@@ -1,0 +1,27 @@
+{
+  "name": "market-sp1-m4--ericvini",
+  "version": "1.0.0",
+  "description": "Recebemos uma demanda para realizar a criação de uma API REST. Essa API será utilizada para organização do estoque de uma startup em processo de testes que pretende se transformar em uma rede de mercados autônomos (Smart Store). Hoje o mercado trabalha com apenas dois tipos de produtos: **comida** e **limpeza**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsnd --cls --rs --ignore-watch node_modules src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenzie-Academy-Brasil-Developers/market-sp1-m4--ericvini.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kenzie-Academy-Brasil-Developers/market-sp1-m4--ericvini/issues"
+  },
+  "homepage": "https://github.com/Kenzie-Academy-Brasil-Developers/market-sp1-m4--ericvini#readme",
+  "dependencies": {
+    "@types/express": "^4.17.17",
+    "express": "^4.18.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
